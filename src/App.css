@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+  background-color: #ececec;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+.href-font{
+    color:darkturquoise;
+    text-decoration: none;
+}
+.left {
+  /* background-color: #ececec; */
+  padding: 20px;
+  float: left;
+  width: 70%; 
+  text-align: left;
+  font-size: 14px;
+}
+.left a{
+  color:darkturquoise;
+    text-decoration: none;
+    font-weight: bold;
+}
+.right {
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+.product-main{
+
+}
+.giftcheckBox a{
+  color:darkturquoise;
+  text-decoration: none;
+}
+
+.product-checkbox {
+    padding: 20px;
+    float: left;
+    width: 5%;
+}
+
+.product-center{
+    padding: 20px;
+    float: left;
+    width: 55%;
+}
+
+.product-right {
+    padding: 20px;
+    float: left;
+    width: 100%;
+} 
+.product-cart-left-img{
+  float: left;
+  width: 30%;
+  padding: 5%;
+}
+.product-cart-center-div{
+  float: left;
+  width: 60%;
+}
+.product-cart-right{
+  float: left;
+  width: 5%;
+}
+.product-left-main{
+  width: 90%;
+}
+.product-right-main,.product-left-main{
+  float: left;  
+  background-color: #ffffff;
+}
+.product-right h2{
+  color: #2e3030;
+}
+.product-right-left-img{  
+  float: left;
+  width:40%;
+}
+
+.product-right-right-div{
+  padding-left: 2%;
+  float: left;
+  width:60%;
+}
+.product-title{
+  color: #7eb5bf;
+}
+.product-rating, .product-prime, .product-title, .product-rating-count, .product-rating-price, .product-add{
+  width: 100%;
+  text-align: left;
+}
+.product-add button{
+  background-color: #ffd80e;
+  border-radius: 10px;
+  border: none;
+  padding: 2%;
+  font-weight: 700;
+  color: darkslategray;
+}
+.checked {
+  color: orange;
+}
+.stockStatus{
+  color: darkgreen;
+  font-weight: bold;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+.total-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align:  right;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid gray;
+}
+
+
+.cart-list-container {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
